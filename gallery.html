@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>Paul Majek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">Paul M</div>
+        <nav class="navigation-bar">
+            <!--Hamburger menu-->
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <!--Standard navigation-->
+            <ul class="navigation-links">
+              <ul class="navigation-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown-parent">
+                    <a href="#">Paintings</a>
+                    <ul class="dropdown">
+                        <li><a href="gallery.html">2022-23</a></li>
+                        <li><a href="gallery2.html">2023-24</a></li>
+                    </ul>
+                </li>
+                <li><a href="exhibition.html">Exhibitions</a></li>
+                <li><a href="statement.html">Artist Statement</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </ul>
+    
+        </nav>
+    </header>
+
+    <div class="full-screen-menu" id="fullMenu">
+      <span class="close-btn" id="closeMenu">&times;</span>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">2022-23</a></li>
+          <li><a href="gallery2.html">2023-24</a></li>
+          <li><a href="exhibition.html">Exhibitions</a></li>
+          <li><a href="statement.html">Artist Statement</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </div>
+  
+        <main>
+          <h2>2022-23</h2>
+                <section class="gallery">
+                  <div class="artwork">
+                    <img src="./assets/eyeofthestorm.jpg" alt="The Eye of The Storm">
+                    <p>The Eye of The Storm</p>
+                  </div>
+                  <div class="artwork">
+                    <img src="./assets/eighth.jpg" alt="Eighth">
+                    <p> Eighth</p>
+                  </div>
+                  <div class="artwork">
+                    <img src="./assets/taiwo.jpg" alt="Taiwo">
+                    <p>Taiwo</p>
+                  </div>
+                  <div class="artwork">
+                    <img src="./assets/window.jpg" alt="Kolawole in the Corridor">
+                    <p>Window</p>
+                  </div>
+                  <div class="artwork">
+                    <img src="./assets/kolawole.jpg" alt="Kolawole in the Corridor">
+                    <p>Kolawole</p>
+                  </div>
+                  <div class="artwork">
+                    <img src="./assets/oluwabukola.jpg" alt="Oluwabukola">
+                    <p>Oluwabukola</p>
+                  </div>
+                </section>
+            </main>
+
+   
+    
+        <footer>
+            <p class="gallery-footer">
+                Site developed by
+                <a href="https://antonodu.netlify.app/" target="_blank" rel="noopener noreferrer">Anthony</a>
+            </p>
+        </footer>
+</body>
+<script src="script.js"></script>
+</html>

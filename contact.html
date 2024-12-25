@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>Paul Majek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">Paul M</div>
+        <nav class="navigation-bar">
+            <!--Hamburger menu-->
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+             <!--Standard navigation-->
+             <ul class="navigation-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown-parent">
+                    <a href="#">Paintings</a>
+                    <ul class="dropdown">
+                        <li><a href="gallery.html">2022-23</a></li>
+                        <li><a href="gallery2.html">2023-24</a></li>
+                    </ul>
+                </li>
+                <li><a href="exhibition.html">Exhibitions</a></li>
+                <li><a href="statement.html">Artist Statement</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="full-screen-menu" id="fullMenu">
+        <span class="close-btn" id="closeMenu">&times;</span>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">2022-23</a></li>
+            <li><a href="gallery2.html">2023-24</a></li>
+            <li><a href="exhibition.html">Exhibitions</a></li>
+            <li><a href="statement.html">Artist Statement</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+
+        <main>
+            <section class="contact">
+                <h2 class="contact-me">Contact Me</h2>
+                <div class="form-container">
+                    <form action="process-form.php" method="POST">
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name" aria-label="Enter your name">
+                        </div>
+        
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" aria-label="Enter your email">
+                        </div>
+        
+                        <div>
+                            <label for="message">Message:</label>
+                            <textarea name="message" id="message" rows="5" aria-label="Enter your message"></textarea>
+                        </div>
+        
+                        <div>
+                            <button type="submit" aria-label="Submit Form">Submit</button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </section>
+        </main>
+
+    
+        <footer>
+            <p class="footer">
+                Site developed by
+                <a href="https://antonodu.netlify.app/" target="_blank" rel="noopener noreferrer">Anthony</a>
+            </p>
+        </footer>
+</body>
+<script src="script.js"></script>
+</html>

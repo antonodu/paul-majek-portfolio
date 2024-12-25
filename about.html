@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>Paul Majek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">Paul M</div>
+        <nav class="navigation-bar">
+            <!--Hamburger menu-->
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <!--Standard navigation-->
+            <ul class="navigation-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown-parent">
+                    <a href="#">Paintings</a>
+                    <ul class="dropdown">
+                        <li><a href="gallery.html">2022-23</a></li>
+                        <li><a href="gallery2.html">2023-24</a></li>
+                    </ul>
+                </li>
+                <li><a href="exhibition.html">Exhibitions</a></li>
+                <li><a href="statement.html">Artist Statement</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="full-screen-menu" id="fullMenu">
+        <span class="close-btn" id="closeMenu">&times;</span>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Paintings</a></li>
+            <li><a href="exhibition.html">Exhibitions</a></li>
+            <li><a href="statement.html">Artist Statement</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </div>
+
+    <main>
+        <section class="biography">
+            <h2>About Me</h2>
+            <div class="bio-container">
+            <div class="about-img">
+                <img src="./assets/biography-picture.jpeg" alt="A picture of Paul Majek">
+            </div>
+    
+            <div class="bio-text">
+                <p>
+                    Paul Majek is based in London and received his BFA in Fine Art from the University of Oxford, Ruskin School of Art in 2023. 
+                    He is currently completing his postgraduate at the Royal Drawing School.
+                </p>
+                <p>
+                    Paul Majek’s work embodies a fluidity around his figures, delving into landscapes of memory, generational dialogue, and spirituality. Majek uses oil, 
+                    acrylic, and charcoal on wood, canvas and paper. Drawing and staining wood allows him to create a deeply layered surface, exploring opacity and transparency. 
+                    He draws on archival family photos and personal narratives. Combining his painted surfaces with video, sculptural elements, and found objects, often situating them 
+                    within altar-like domestic interiors.
+                </p>
+
+              </div>
+
+              <div class="social-icons">
+                <a href="https://www.instagram.com/paul_majek/?hl=en" target="_blank" rel="noopener noreferrer" aria-label="Visit Instagram profile">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+
+
+                <a href="#" onclick="openPDF()" aria-label="Download Paul Majek’s CV">
+                    <i class="bx bxs-file-pdf"></i>
+                </a>
+              </div>
+        
+        </div>
+        </section>
+    </main>
+    
+
+    <footer>
+        <p class="about-footer">
+            Site developed by 
+            <a href="https://antonodu.netlify.app/" target="_blank" rel="noopener noreferrer">Anthony</a>
+        </p>
+    </footer>
+    
+</body>
+<script src="script.js"></script>
+</html>
