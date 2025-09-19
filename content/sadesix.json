@@ -1,0 +1,25 @@
+{
+  "images": [
+    { "src": "/assets/sadesix1.jpeg", "alt": "A picture of Paul Majek's Mother" },
+    { "src": "/assets/showcase-img.jpg", "alt": "A picture of the parents" },
+    { "src": "/assets/sadesix2.jpeg", "alt": "A picture of the dad" }
+  ],
+  "logo": {
+    "src": "/assets/sade-six.png",
+    "alt": "This is the Sadesix logo"
+  },
+  "paragraphs": [
+    "SADESIX: A Family Collective",
+    "SADESIX is a vessel for honouring those who came before us while carving out a future that is collaborative, representative, and ever-evolving. Our Collective is driven by an ambition to honour our ancestors, prophets, and our family. This ambition manifests itself in the form of a collective ritual, a deliberate act to honour the people who inhabit our home and personal structures. The collective memory is a consciousness we all share, a structure that cannot be left vacant. These elements form the roots we are planting, the stable ground on which structures are built, the spaces where we find fellowship, and the vessel that held us. Sade, our mother, she is this vessel.",
+    "Creative Collaboration: SADESIX is a platform where we unite to share ideas, challenge perspectives, and inspire new artistic possibilities.",
+    "Community & Representation: We are committed to creating an inclusive space that welcomes all ages and backgrounds, amplifying voices that are often unheard.",
+    "Experimentation & Learning: We embrace the power of play, discovery, and pushing creative boundaries to engage and educate ourselves and others."
+  ],
+  "quote": "“An image of the sun with six different rays.”",
+  "socials": {
+    "instagram": "https://www.instagram.com/sade.six/",
+    "cv": "/assets/SADESIX CV.pdf",
+    "slideshow": "https://docs.google.com/presentation/d/1kwqy7MaUsVFC2Djum8QfECdw4voLn4fBG48UbVXdEMg/edit?usp=sharing"
+  },
+  "footer": "Site developed by <a href='https://antonodu.netlify.app/' target='_blank' rel='noopener noreferrer'>Anthony</a>"
+}

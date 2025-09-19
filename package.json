@@ -1,0 +1,25 @@
+{
+  "name": "paul-majek-website",
+  "version": "1.0.0",
+  "main": "generate-sitemap.js",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "sax": "^1.4.1",
+    "sitemap": "^8.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonodu/fine-art-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonodu/fine-art-portfolio/issues"
+  },
+  "homepage": "https://github.com/antonodu/fine-art-portfolio#readme",
+  "description": ""
+}

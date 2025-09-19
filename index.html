@@ -9,68 +9,49 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
 </head>
-<body class="homepage">
+<body>
     <header>
-        <div class="logo">Paul M</div>
+        <div class="logo">Paul Majek</div>
         <nav class="navigation-bar">
-            <!--Hamburger menu-->
-            <div class="hamburger" id="hamburger">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
-
-            <!--Standard navigation-->
-            <ul class="navigation-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li class="dropdown-parent">
-                    <a href="#">Paintings</a>
-                    <ul class="dropdown">
-                        <li><a href="gallery.html">2022-23</a></li>
-                        <li><a href="gallery2.html">2023-24</a></li>
-                    </ul>
-                </li>
-                <li><a href="exhibition.html">Exhibitions</a></li>
-                <li><a href="statement.html">Artist Statement</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+          <div class="hamburger" id="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <ul class="navigation-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Biography</a></li>
+            <li><a href="works.html">Selected Works</a></li>
+            <li><a href="exhibition.html">Exhibitions</a></li>
+            <li><a href="sadesix.html">SADESIX</a></li>
+          </ul>
         </nav>
-    </header>
-
-    <div class="full-screen-menu" id="fullMenu">
+      </header>
+    
+      <div class="full-screen-menu" id="fullMenu">
         <span class="close-btn" id="closeMenu">&times;</span>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="gallery.html">2022-23</a></li>
-            <li><a href="gallery2.html">2023-24</a></li>
-            <li><a href="exhibition.html">Exhibitions</a></li>
-            <li><a href="statement.html">Artist Statement</a></li>
-            <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Biography</a></li>
+          <li><a href="works.html">Selected Works</a></li>
+          <li><a href="exhibition.html">Exhibitions</a></li>
+          <li><a href="sadesix.html">SADESIX</a></li>
         </ul>
-    </div>
-
-    <main>
-        <section class="home">
-            <h1>Paul Majek</h1>
-            <p>Fine Art</p>
-           
-            </div>
-        </section>
-    </main>
- 
+      </div>
+    
+      <div class="slideshow-container">
+        <div class="slide" style="background-image: url('./assets/slideshow1.jpg');"></div>
+        <div class="slide" style="background-image: url('./assets/slideshow2.jpg');"></div>
+        <div class="slide" style="background-image: url('./assets/slideshow3.jpg');"></div>
+        <div class="slide">
+          <video autoplay muted loop> <source src="assets/Untitled 2.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+        </div>
+      </div>
     
 
-    <footer>
-        <p class="footer">
-            Site developed by 
-            <a href="https://antonodu.netlify.app/" target="_blank" rel="noopener noreferrer">Anthony</a>
-        </p>
-    </footer>
-
-    
-</body>
+    </body>
 <script src="script.js"></script>
+<script src="/js/home.js"></script>
 </html>

@@ -1,0 +1,117 @@
+{
+  "upcoming": [
+    {
+      "id": 10,
+      "title": "Queeriosities (Art and Makers Fair)",
+      "description": "Queeriosities returns to London for its 2025 edition, showcasing the work of more than 60 LGBTQIA+ artists, makers, and small businesses at Copeland Gallery in Peckham. Alongside a vibrant marketplace of vendors, this year’s edition also features a weekend of cultural programming and the special group exhibition We Come to This Place for Magic, exploring queer world-building and showcasing the work of Devynn Barnes, Lawrence Cuevas, Theo Dunne, Paul Majek, Krzysztof Strzelecki, and Marf Summers..",
+      "artists": ["Devynn Barnes, Lawrence Cuevas, Theo Dunne, Paul Majek, Krzysztof Strzelecki, and Marf Summers."],
+      "work": "TBD",
+      "dates": "26–28 September 2025",
+      "location": "Copeland Gallery, Peckham, London",
+      "images": ["/assets/exhibition-img10.png"]
+    },
+    {
+      "id": 11,
+      "title": "O’DA at 1-54 Contemporary African Art Fair",
+      "description": "O’DA, a contemporary art gallery based in Lagos, Nigeria, will be presenting at the 1-54 Contemporary African Art Fair, showcasing contemporary African art and design from mid-career and established artists. The gallery champions multidisciplinary practices exploring identity, technology, political commentary, social consciousness, and environmental change, while supporting designers whose work pushes the boundaries between art and design. Featured artists include Afeez Onakoya, Simon Ojeaga, and Paul Majek..",
+      "artists": ["Afeez Onakoya, Simon Ojeaga, and Paul Majek."],
+      "work": "TBD",
+      "dates": "16–19 October 2025",
+      "location": "Somerset House, Strand, London WC2R 1LA, United Kingdom",
+      "images": ["/assets/exhibition-img11.jpeg"]
+    }
+  ],
+  "past": [
+    {
+      "id": 1,
+      "title": "RSA Degree Show 2023",
+      "description": "A showcase of outstanding work by final-year students, featuring painting, photography, video, sculpture, installation, and performance. This exhibition marks the culmination of their creative journey and offers an opportunity to meet the artists and explore their thought-provoking work.",
+      "artists": ["Kes Berry, Sophie Bostock, Heather Carter, Sarah Catterall, Cornelia Chen, David Collins, Paige Diedrick-Edwards, Anna Du Toit, Anselm Dyer-Grimes, Meg Erridge, Gala Hills, Yuri Hwang, Antonia Jameson, Dominika Kolenda, Harry Liang, Will Lowry, Paul Majek-Oduyoye, Hugo Max, Sophia Missaghian-Schirazi, Julia Moon, Loveday Pride, Rachel Prince, Harman Randhawa, Elliot Roberts, Georgie Salmond, Skye Seipp, Zoe Shum, Long-Hin Shum, Emer Sukonik, Angus Wood"],
+      "work": "Dolapo’s Altar (2023)<br>Installation (variation)<br>Dimensions variable",
+      "dates": "17th – 21st June 2023",
+      "location": "Ruskin School of Art, Old Music Hall, 108 Cowley Road, Oxford, OX4 1JE",
+      "images": ["/assets/exhibition-img1.JPG"]
+    },
+    {
+      "id": 2,
+      "title": "Within Our Midst",
+      "description": "Drawing inspiration from Nigerian traditional and contemporary themes, this exhibition explores the potential of art as a powerful form of revelation in connecting generational dialogues and spirituality, whilst questioning how often we reflect on socio-cultural standards, beliefs and normalities.",
+      "artists": ["Paul Majek", "Michael Igwe"],
+      "work": "The Eye Of The Storm (2022) <br> Oil, acrylic, charcoal on wood <br> 82 x 227cm",
+      "dates": "11 May – 8 June 2024",
+      "location": "O'DA Art Gallery, 10 Sir Samuel Manuwa Street, Victoria Island, Lagos, Nigeria",
+      "images": ["/assets/exhibition-img2.jpeg"]
+    },
+    {
+      "id": 3,
+      "title": "Appendix | Index",
+      "description": "Installation exploring memory, ancestry, and ritual.",
+      "artists": ["Karina Akopyan, Molly Burrows, Matilde Converio, Millie Earthy, Simone Ellis, Maya King-Dabbs, Paul Majek, Tawfik Naas, Kelly W"],
+      "work": "It Ends With Me (2024) <br> Soft pastel, acrylic on paper <br> 150 x 120 cm",
+      "dates": "13 – 17 November 2024",
+      "location": "Christie’s, London",
+      "images": ["/assets/exhibition-img4.jpeg"]
+    },
+    {
+      "id": 4,
+      "title": "Dolapo’s Altar (2023)",
+      "description": "Installation exploring memory, ancestry, and ritual.",
+      "artists": ["Paul Majek"],
+      "work": "Dolapo’s Altar (2023)",
+      "dates": "2023",
+      "location": "London, UK",
+      "images": ["/assets/exhibition-img1.JPG"]
+    },
+    {
+      "id": 5,
+      "title": "The Ingram Prize 2024",
+      "description": "The 2024 Ingram Prize shortlist highlights a dynamic group of artists whose work reflects both the local and global influences shaping contemporary art today. These artists engage with a wide range of ideas, cultures, and perspectives, offering fresh insights that resonate far beyond the UK. We are proud to support them at such a pivotal moment in their careers..",
+      "artists": ["Henri Affandi, Hester Finch, Paul Majek, Jemima Sara, Leonie Cameron, Jasper Garvida, Naira Mushtaq, Tami Soji-Akinyemi, Yuyang Chen, Camilla Hanney, Adiba Ndiwe, Saint Takyi, Noemi Conan, Makiko Harris, Megumi Ohata, Tara White, Georgia Dymock, Rose Electra Harris, Frances Pinnock, Tonye Ekine, Denny Kaulbach, Chinmayee Pradhan, Katie Eraser, Niall MacCrann, Stephen Price"],
+      "work": "The Pattern (2023) <br> Oil, acrylic, and charcoal on wood <br> 155 x 122 cm",
+      "dates": "14th – 17 November 2024",
+      "location": "Ruskin School of Art, Old Music Hall, 108 Cowley Road, Oxford, OX4 1JE",
+      "images": ["/assets/exhibition-img5.jpeg"]
+    },
+    {
+      "id": 6,
+      "title": "Drawn Together",
+      "description": "A group exhibition of 40 artists whose work is rooted in drawing – not just as a medium, but as a way of thinking, seeing, and making. All alumni of The Drawing Year, the Royal Drawing School’s postgraduate programme, the artists have been selected to showcase the breadth and vitality of drawing as it exists today: a medium that continues to evolve, provoke, and sustain long-term artistic practices. As well as celebrating drawing’s enduring power, the exhibition reconnects artists from across different years of the programme, offering a glimpse into the lasting impact of the School’s teaching and community.",
+      "artists": ["Jesse Ajilore, Jade Anthony, Raphael Barratt, Sophie Birch, Natalie Charles, Sam Chatto, Mark Connolly, Samuel Donagh, Ned Elliott, Bobbye Fermie, Edie Flowers, Raha Farazmand, Joana Galego, Jake Garfield, Myrtle Glanville, Christopher Green, Rebecca Harper, Mary Herbert, Jack McGarrity, Olivia Kemp, Melissa Kime, Sara Lee-Roberts, Sammi Lynch, Ranny Macdonald, Paul Majek-Oduyoye, Holly Mills, Keziah Mornin, Hannah Murgatroyd, Tim Patrick, Louis Pohl Koseda, Louise Reynolds, Sophie Ruigrok, Fraser Scarfe, Gregory Stevens, Tobias Tatham, Rosie Tuff, Liam Walker, Eleanor May Watson, Ella Wright, Kathryn Maple."],
+      "work": "Love Mislead (2024) <br> Oil, acrylic, soft pastel on wood <br> 87 x 72cm",
+      "dates": "2 – 18 June 2025",
+      "location": "Royal Drawing School, Shoreditch",
+      "images": ["/assets/exhibition-img6.JPEG"]
+    },
+    {
+      "id": 7,
+      "title": "Haven",
+      "description": "HAVEN is the inaugural exhibition of Steingold Contemporary that brings together 14 prominent contemporary artists working in the UK today. The unique setting is Aylmer Hall - a beautifully refurbished mission hall that is the new home of Nest Design who will open their workspace to the public during the exhibition. ‘Haven’ is a word that has great power - one that we all respond to, but in different ways; a place of safety or refuge, whether physical or psychological, amongst a community or in solitude. The exhibiting artists express what ‘haven’ means to them and how it resonates through their art practice. Though their experiences and interpretations might be diverse, there is an inextricable link woven through them - and through all of us. At some point in our lives, we have all needed a haven.",
+      "artists": ["Elizabeth Abel, Yemi Awosile, Ditte Blohm, Nicole Douglas-Morris, Tonye Ekine, Olly Fathers, Chris Hagan, Ross Head, Beatrice Hassel-McCosh, Barbora Klaska, Studio Lenca, Paul Majek, Mada Vicassiau, Maddie Yuille"],
+      "work": "Love Mislead (2024) <br>Oil, acrylic, soft pastel on wood <br> 87 x 72cm",
+      "dates": "30th – 14th September 2022",
+      "location": "Aylmer Hall, 12 Aylmer Road, E11 3AD",
+      "images": ["/assets/exhibition-img7.jpeg"]
+    },
+    {
+      "id": 8,
+      "title": "Intimacies, After Vallotton",
+      "description": "A Duo exhibition Featuring Paul Majek and Sam Spencer. Presented by The Old Fire Station. In 1898, Swiss artist Félix Vallotton exposed the private lives of the aristocracy in a series of ten woodcuttings: Intimités. Now, artist/writer duo Paul Majek and Sam Spencer present Intimacies, After Vallotton. Hazy blue portraits are brought to life with accompanying dialogues, each piece offers a glimpse into the subject’s lives and grapples with what it means to be close to another person. Reimagining the erotic, often melancholic relationships depicted across Vallotton’s ten woodcuts, Paul Majek’s paintings - drawing upon photographs from his own family archive - encourage us to expand our definition of intimacy, exploring parental and familial connections as well as romantic ones. Moving beyond the heteronormative love portrayed in Vallotton’s series, Sam Spencer’s duologues offer examples of queer and platonic intimacy.",
+      "artists": ["Pete Miller, Osian Williams (Curators) Georgina Dettmer (Director)"],
+      "work": "Dolapo’s Altar (2023)",
+      "dates": "17th – 21st June 2023",
+      "location": "Ruskin School of Art, Old Music Hall, 108 Cowley Road, Oxford, OX4 1JE",
+      "images": ["/assets/exhibition-img8.jpeg"]
+    },
+    {
+      "id": 9,
+      "title": "In Heavenly Blue",
+      "description": "Wunika Mukan Gallery presents In Heavenly Blue, the homecoming exhibition of Paul Majek and Sola Olulode. The exhibition centers on their exploration of the color blue as a conduit of love and memory. In their work, as in Nigerian tradition, blue affirms its power to summon emotion and evoke intimacy. Majek’s paintings ebb dreamily between dimensions, while Olulode’s indigos stir a sense of familiarity, lingering in tender, romantic moments. Both UK-based artists draw on their ancestry, and in returning “home” to Nigeria, they reconnect knowledge frayed by time and migration. Paul Majek takes blue-hued lucid dreaming as a point of departure to probe the materiality of liminal spaces. His oil, acrylic, and charcoal works on wood or canvas recreate the terrain of the subliminal, transforming woodgrain into liquid form and imprinting Nigerian symbols that render his figures transparent and ethereal. Referencing archival family photographs of people and spaces only partly known, Majek approaches the archive as its own autonomous language, linking memory, love, generational dialogue, and spirituality.",
+      "artists": ["Paul Majek, Sola Olulode"],
+      "work": "I lost my heart’s….ease (2021) <br> Oil, Acrylic, Charcoal on Wood <br> 107 x 82 cm",
+      "dates": "31 July – 15 August 2021",
+      "location": "Wunika Mukan Gallery, Lagos, Nigeria",
+      "images": ["/assets/exhibition-img9.jpeg"]
+    }
+    
+  ]
+}

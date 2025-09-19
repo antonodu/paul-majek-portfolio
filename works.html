@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>Paul Majek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <header>
+    <div class="logo">Paul Majek</div>
+    <nav class="navigation-bar">
+      <div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="navigation-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Biography</a></li>
+        <li><a href="works.html">Selected Works</a></li>
+        <li><a href="exhibition.html">Exhibitions</a></li>
+        <li><a href="sadesix.html">SADESIX</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <div class="full-screen-menu" id="fullMenu">
+      <span class="close-btn" id="closeMenu">&times;</span>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="works.html">Selected Works</a></li>
+        <li><a href="exhibition.html">Exhibitions</a></li>
+        <li><a href="sadesix.html">SADESIX</a></li>
+    </ul>
+  </div>
+  
+
+  <main class="gallery">
+    <div class="gallery-item">
+      <div class="artwork" onclick="openModal(0)">
+      <img src="./assets/work1.jpeg" alt="Taiwo">
+      </div>
+      <p class="gallery-title">Taiwo, 2023</p>
+    </div>
+    <div class="gallery-item">
+      <div class="artwork" onclick="openModal(1)">
+        <img src="./assets/work2.jpg" alt="Bode">
+      </div>
+      <p class="gallery-title">Bode, 2024</p>
+    </div>
+    <div class="gallery-item">
+      <div class="artwork" onclick="openModal(2)">
+        <img src="./assets/work3.JPG" alt="Love Mislead">
+      </div>
+      <p class="gallery-title">Love Mislead, 2024</p>
+    </div>
+    <div class="gallery-item">
+      <div class="artwork" onclick="openModal(3)">
+        <img src="./assets/work4.jpg" alt="I Meet My Own Face">
+      </div>
+        <p class="gallery-title">I Meet My Own Face, 2024</p>
+      </div>
+      <div class="gallery-item">
+        <div class="artwork" onclick="openModal(4)">
+          <img src="./assets/work19.jpeg" alt="I'm Still Releasing">
+        </div>
+          <p class="gallery-title">I'm Still Releasing, 2024</p>
+        </div>
+        <div class="gallery-item">
+          <div class="artwork" onclick="openModal(5)">
+            <img src="./assets/work6.jpeg" alt="The Pattern">
+          </div>
+            <p class="gallery-title">The Pattern, 2023</p>
+          </div>
+          <div class="gallery-item">
+            <div class="artwork" onclick="openModal(6)">
+              <img src="./assets/work7.jpg" alt="How Do You Love">
+            </div>
+              <p class="gallery-title">How Do You Love?, 2024</p>
+            </div>
+            <div class="gallery-item">
+              <div class="artwork" onclick="openModal(7)">
+                <img src="./assets/work8.jpeg" alt="Simi Ori E">
+              </div>
+                <p class="gallery-title">Simi Ori E, 2022</p>
+              </div>
+              <div class="gallery-item">
+                <div class="artwork" onclick="openModal(8)">
+                  <img src="./assets/work9.jpg" alt="Love Mislead">
+                </div>
+                  <p class="gallery-title">Love Mislead, 2024</p>
+                </div>
+                <div class="gallery-item">
+                  <div class="artwork" onclick="openModal(9)">
+                    <img src="./assets/work10.jpeg" alt="The Dead Skin We Masquerade">
+                  </div>
+                    <p class="gallery-title">The Dead Skin We Masquerade in, 2024</p>
+                  </div>
+                  <div class="gallery-item">
+                    <div class="artwork" onclick="openModal(10)">
+                      <img src="./assets/work11.jpg" alt="It Ends With Me">
+                    </div>
+                      <p class="gallery-title">It Ends With Me, 2024</p>
+                    </div>
+                    <div class="gallery-item">
+                      <div class="artwork" onclick="openModal(11)">
+                        <img src="./assets/work12.jpeg" alt="Dolapo in the Corridor">
+                      </div>
+                        <p class="gallery-title">Dolapo in The Corridor, 2022</p>
+                      </div>
+                      <div class="gallery-item">
+                        <div class="artwork" onclick="openModal(12)">
+                          <img src="./assets/work13.jpeg" alt="Leather Dress">
+                        </div>
+                          <p class="gallery-title">Leather Dress, 2022</p>
+                        </div>
+                        <div class="gallery-item">
+                          <div class="artwork" onclick="openModal(13)">
+                            <img src="./assets/work14.JPG" alt="They're Always Watching">
+                          </div>
+                            <p class="gallery-title">They're Always Watching, 2024</p>
+                          </div>
+                          <div class="gallery-item">
+                            <div class="artwork" onclick="openModal(14)">
+                              <img src="./assets/work15.jpg" alt="Ibeji Altar">
+                            </div>
+                              <p class="gallery-title">Ibeji Altar, 2023</p>
+                            </div>
+                            <div class="gallery-item">
+                              <div class="artwork" onclick="openModal(15)">
+                                <img src="./assets/work16.jpeg" alt="Ibeji Altar">
+                              </div>
+                                <p class="gallery-title">Ibeji Altar, 2023</p>
+                              </div>
+                              <div class="gallery-item">
+                                <div class="artwork" onclick="openModal(16)">
+                                  <img src="./assets/work17.jpg" alt="The Man on The Landing">
+                                </div>
+                                <p class="gallery-title">The Man on the Landing, 2024</p>
+                                </div>
+                                <div class="gallery-item">
+                                  <div class="artwork" onclick="openModal(17)">
+                                    <img src="./assets/work18.JPG" alt="Olakorede">
+                                  </div>
+                                  <p class="gallery-title">Olakorede, 2024</p>
+                                </div>
+                                <div class="gallery-item">
+                                  <div class="artwork" onclick="openModal(18)">
+                                    <img src="./assets/work5.jpg" alt="Blue's Behind Closed Eye's">
+                                  </div>
+                                  <p class="gallery-title">Just Enough, 2022</p>
+                                </div>
+                                <div class="gallery-item">
+                                  <div class="artwork" onclick="openModal(19)">
+                                    <img src="./assets/work20.jpeg" alt="Slow Fire">
+                                  </div>
+                                  <p class="gallery-title">Slow Fire</p>
+                                </div>
+
+                                <div id="modal" class="modal">
+                                  <span class="close" onclick="closeModal()">&times;</span>
+                                  <div class="modal-content">
+                                    <img id="modal-img" src="" alt="">
+                                    <h2 id="modal-title"></h2>
+                                    <p id="modal-medium"></p>
+                                  </div>
+                                </div>
+                            
+                          
+  </main>
+        <footer>
+           
+        </footer>
+</body>
+<script src="script.js"></script>
+<script src="/js/works.js"></script>
+</html>

@@ -9,121 +9,106 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 <body>
     <header>
-        <div class="logo">Paul M</div>
+        <div class="logo">Paul Majek</div>
         <nav class="navigation-bar">
-            <!--Hamburger menu-->
-            <div class="hamburger" id="hamburger">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
-
-             <!--Standard navigation-->
-             <ul class="navigation-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li class="dropdown-parent">
-                    <a href="#">Paintings</a>
-                    <ul class="dropdown">
-                        <li><a href="gallery.html">2022-23</a></li>
-                        <li><a href="gallery2.html">2023-24</a></li>
-                    </ul>
-                </li>
-                <li><a href="exhibition.html">Exhibitions</a></li>
-                <li><a href="statement.html">Artist Statement</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+          <div class="hamburger" id="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <ul class="navigation-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Biography</a></li>
+            <li><a href="works.html">Selected Works</a></li>
+            <li><a href="exhibition.html">Exhibitions</a></li>
+            <li><a href="sadesix.html">SADESIX</a></li>
+          </ul>
         </nav>
-    </header>
+      </header>
 
     <div class="full-screen-menu" id="fullMenu">
         <span class="close-btn" id="closeMenu">&times;</span>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="gallery.html">2022-23</a></li>
-            <li><a href="gallery2.html">2023-24</a></li>
+            <li><a href="works.html">Selected Works</a></li>
             <li><a href="exhibition.html">Exhibitions</a></li>
-            <li><a href="statement.html">Artist Statement</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="sadesix.html">SADESIX</a></li>
         </ul>
     </div>
 
         <main>
-            <section class="exhibition">
-                <div class="current-exhibitions">
-                    <h2>Exhibitions</h2>
-                </div>
-        
-                <div class="exhibition-images">
-                    <img src="./assets/exhibition1.jpeg" alt="Art Exhibition Painting 1">
-                    <img src="./assets/exhibition2.jpeg" alt="Art Exhibition Painting 2">
-                    <img src="./assets/exhibition3.jpeg" alt="Art Exhibition Painting 3">
-                    <img src="./assets/exhibition4.jpeg" alt="Art Exhibition Painting 4">
-                    <img src="./assets/exhibition5.jpeg" alt="Art Exhibition Painting 5">
-                    <img src="./assets/exhibition6.jpeg" alt="Art Exhibition Painting 6">
-        
-                </div>
-        
-                <div class="side-sections">
-                    <div class="section upcoming">
-                        <h3>Upcoming Exhibitions</h3>
-                        <strong>The Drawing Year 2024: End of year exhibition</strong><br>
-                        Location: 19-22 Charlotte Rd, London EC2A 3SG<br>
-                        Dates: Dec 4th - 19th 2024 <br>
-        
-                        <br>
-        
-                        <strong>KATES-FERRI PROJECTS: Pangea </strong><br>
-                        Location: 561 Grand St, New York, NY 10002, US<br>
-                        Dates: Jan 17th - Feb 15th 2025
-        
-                        
+          <section class="exhibition">
+            <h2 class="exhibition-title">Exhibitions</h2>
+          
+            <!-- Tabs -->
+            <div class="exhibition-tabs">
+              <div class="exhibition-tab " data-target="upcoming">Upcoming</div>
+              <div class="exhibition-tab active" data-target="past">Past</div>
+            </div>
+          
+            <!-- Upcoming Exhibitions -->
+            <div class="exhibition-gallery" id="upcoming-exhibitions" style="display:none;" >
+              <div class="art-item" data-id="10">
+              <img src="./assets/exhibition-img10.png" alt="Queeriosities (Art and Makers Fair)">
+              </div>
+              <div class="art-item" data-id="11">
+                <img src="./assets/exhibition-img11.jpeg" alt="">
+              </div>
+            </div>
+          
+            <!-- Past Exhibitions -->
+            <div class="exhibition-gallery" id="past-exhibitions">
+              <div class="art-item" data-id="1"><img src="./assets/exhibition-img1.JPG" alt="Dolapo’s Altar (2023)"></div>
+              <div class="art-item" data-id="2"><img src="./assets/exhibition-img2.jpeg" alt="Within Our Midst"></div>
+              <div class="art-item" data-id="3"><img src="./assets/exhibition-img3.jpeg" alt="Appendix | Index"></div>
+              <div class="art-item" data-id="4"><img src="./assets/exhibition-img4.jpeg" alt="It Ends With Me"></div>
+              <div class="art-item" data-id="5"><img src="./assets/exhibition-img5.jpeg" alt="The Pattern"></div>
+              <div class="art-item" data-id="6"><img src="./assets/exhibition-img6.JPEG" alt="The Pattern"></div>
+              <div class="art-item" data-id="7"><img src="./assets/exhibition-img7.jpeg" alt="Haven"></div>
+              <div class="art-item" data-id="8"><img src="./assets/exhibition-img8.jpeg" alt="Intimacies, After Vallotton"></div>
+              <div class="art-item" data-id="9"><img src="./assets/exhibition-img9.jpeg" alt="In Heavenly Blue"></div>
+            </div>
+          
+            <!-- Modal -->
+            <div id="exhibitionModal" class="exhibition modal hidden">
+              <div class="exhibition-modal-content">
+                <button class="modal-close">&times;</button>
+                <button class="modal-prev">&#10094;</button>
+                <button class="modal-next">&#10095;</button>
+                <div class="exhibition-modal-body">
+                  <!-- Left: Info -->
+                  <div class="exhibition-info">
+                    <h2 id="modal-title"></h2>
+                    <p id="modal-description"></p>
+                    <h3>Exhibiting Artists:</h3>
+                    <p id="modal-artists"></p>
+                    <h3>Work Highlighted:</h3>
+                    <p id="modal-work"></p>
+                    <h3>Exhibition Dates:</h3>
+                    <p id="modal-dates"></p>
+                    <h3>Location:</h3>
+                    <p id="modal-location"></p>
+                  </div>
+          
+                  <!-- Right: Swiper images -->
+                  <div class="exhibition-images">
+                    <div class="swiper">
+                      <div class="swiper-wrapper" id="modal-images"></div>
+                      <div class="swiper-button-next"></div>
+                      <div class="swiper-button-prev"></div>
                     </div>
-        
-                    <div class="section past">
-                        <h3>Past Exhibitions</h3>
-                        <p><strong>2020 Virtual Exhibition, titled ‘Unlocked’</strong></p>
-                        <p><strong>2021 Online Exhibition, Group show ‘Primordial soup’</strong></p>
-                        <p><strong>2021 OUDS New writing festival</strong></p>
-                        <p><strong>2021 ‘In Heavenly Blue’ with Sola Olulode, Pacers Gallery in Lagos, Nigeria</strong></p></p>
-                        <p><strong>2021 Virtual exhibition, titled ‘Isolation’</strong></p>
-                        <p><strong>2021 ‘The Other Within The Other: A Queer and Black Exhibition’</strong></p>
-                        <p><strong>2021 Kanbi projects - ‘Untangling the Perils that Tangle us?’ Group exhibition</strong></p>
-                        <p><strong>2022 Old Fire Station Gallery ‘Intimacies, after Vallatton’ Exhibition</strong></p>
-                        <p><strong>2022 Magdalen college Race and Empire Exhibition</strong></p>
-                        <p><strong>2022 Blackwhite gallery ‘Raising boys’ Group show</strong></p>
-                        <p><strong>2022 Steingold Contemporary ‘HAVEN’ Group show</strong></p>
-                        <p><strong>2023 Ruskin School of Art ‘Degree Show’</strong></p>
-                        <p><strong>2023 The Maffioli Art Group, ‘Exhibition at the Scalpel’ Group show</strong></p>
-                        <p><strong>2024 Black Curatorial in collaboration with Black Eats LDN at Woolwich Works, Group show</strong></p>
-                        <p><strong>2024 O’DA Art Gallery ‘Within our Midst’ showing in Lagos with Michael Igwe</strong></p>
-                        <p><strong>2024 Rele Gallery ‘Stretching the Light’ Group show, Curated by Alayo Akinkugbe</strong></p>
-                        <p><strong>2024 Next Gen Masters: The Bicester Village x LUX Magazine, group show</strong></p>
-                        <p><strong>2024 ‘Best of the Drawing Year 2024’ at Christie’s in London</strong></p>
-                        <p><strong>2024 The Drawing Year 2024: End of year exhibition & Open studios</strong></p>
-                    </div>
-        
-                    <div class="section awards">
-                        <h3>Awards</h3>
-                        <p><strong>2019 Artists residency at Dumfries House</strong></p>
-                        <p><strong>2021 Artists residency Magdalen College, Race and Empire Exhibition</strong></p>
-                        <p><strong>2021 Geoffrey Rhodes Prize for Fine Art</strong></p>
-                        <p><strong>2022 Artist residency in Nigeria, Lagos with HFACTOR, streets lights collective</strong></p>
-                        <p><strong>2023 Stuart Morgan Prize for Art History for ‘Let The Church Sink, LetThe Ship Say Amen’ by Paul Majek</strong></p>
-                        <p><strong>2024 The 2024 Morrison Forester Art Prize</strong></p>
-                        <p><strong>2024 Next Gen Masters: the Bicester Village x LUX Magazine Celebration of Emerging Artists</strong></p>
-                        <p><strong>2024 The Moritz-Heyman Residency at Borgo Pignano</strong></p>
-                        <p><strong>2024 The Ingram Prize Exhibition</strong></p>
-                    </div>
+                  </div>
                 </div>
-            </section>
-        </main>
+              </div>
+            </div>
+          </section>
 
-    
+
 
         <footer>
             <p class="exhibition-footer">
@@ -135,4 +120,6 @@
 
     </body>
     <script src="script.js"></script>
+   
+
     </html>

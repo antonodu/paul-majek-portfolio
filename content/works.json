@@ -1,0 +1,104 @@
+{
+  "works": [
+    {
+      "title": "TAWIO, 2023",
+      "image": "./assets/work1.jpeg",
+      "description": "Oil, acrylic and charcoal on wood."
+    },
+    {
+      "title": "BODE, 2024",
+      "image": "/assets/work2.jpg",
+      "description": "Reductive Mono-print on paper."
+    },
+     {
+      "title": "LOVE MISLEAD, 2024",
+      "image": "/assets/work3.jpg",
+      "description": "Reductive Mono-print on paper."
+    },
+     {
+      "title": "I Meet My Own Face, 2024",
+      "image": "/assets/work4.jpg",
+      "description": "Reductive Mono-print on paper."
+    },
+     {
+      "title": "I'm Still Releasing, 2024",
+      "image": "/assets/work5.jpg",
+      "description": "Reductive Mono-print on paper."
+    },
+     {
+      "title": "The Pattern, 2023",
+      "image": "/assets/work6.jpeg",
+      "description": "Oil, acrylic and charcoal on wood."
+    },
+     {
+      "title": "How Do You Love?, 2024",
+      "image": "/assets/work7.jpg",
+      "description": "Soft pastel and charcoal on paper."
+    },
+     {
+      "title": "Simi Ori E, 2022",
+      "image": "/assets/work8.jpeg",
+      "description": "Oil, acrylic and charcoal on wood."
+    },
+     {
+      "title": "Love Mislead, 2024",
+      "image": "/assets/work9.jpg",
+      "description": "Charcoal on paper."
+    },
+     {
+      "title": "The Dead Skin We Masquerade in, 2024",
+      "image": "/assets/work10.jpeg",
+      "description": "Reductive Mono-print on paper."
+    },
+     {
+      "title": "It Ends With Me, 2024",
+      "image": "/assets/work11.jpeg",
+      "description": "Soft pastel, acrylic on paper."
+    },
+     {
+      "title": "Dolapo in The Corridor, 2022",
+      "image": "/assets/work12.jpeg",
+      "description": "Oil, acrylic and charcoal on wood."
+    },
+     {
+      "title": "Leather Dress, 2022",
+      "image": "/assets/work13.jpeg",
+      "description": "Oil, acrylic and charcoal on wood."
+    },
+     {
+      "title": "They're Always Watching, 2024",
+      "image": "/assets/work14.jpg",
+      "description": "Reductive Mono-print on paper."
+    },
+     {
+      "title": "Ibeji Altar, 2023",
+      "image": "/assets/work15.jpg",
+      "description": "Plastic, fabric, wood."
+    },
+     {
+      "title": "Ibeji Altar, 2023",
+      "image": "/assets/work16.jpeg",
+      "description": "Oil on canvas."
+    },
+     {
+      "title": "The Man on the Landing, 2024",
+      "image": "/assets/work17.jpg",
+      "description": "Reductive Mono-print on paper."
+    },
+     {
+      "title": "Olakorede, 2024",
+      "image": "/assets/work18-1.jpg",
+      "description": "Reductive Mono-print on paper."
+    },
+     {
+      "title": "Just Enough, 2022",
+      "image": "/assets/work19.jpeg",
+      "description": "Oil, acrylic and charcoal on wood."
+    },
+     {
+      "title": "Slow Fire",
+      "image": "/assets/work20.jpeg",
+      "description": "Tetrapak drypoint on paper."
+    }
+  ]
+}
