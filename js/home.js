@@ -1,4 +1,4 @@
-("/content/index.json")
+fetch("/content/index.json")
   .then(res => res.json())
   .then(data => {
     const container = document.querySelector(".slideshow-container");

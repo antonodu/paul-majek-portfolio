@@ -292,7 +292,7 @@ function showTab(tabId) {
       title: "Intimacies, After Vallotton",
       description: "A Duo exhibition Featuring Paul Majek and Sam Spencer. Presented by The Old Fire Station. In 1898, Swiss artist Félix Vallotton exposed the private lives of the aristocracy in a series of ten woodcuttings: Intimités. Now, artist/writer duo Paul Majek and Sam Spencer present Intimacies, After Vallotton. Hazy blue portraits are brought to life with accompanying dialogues, each piece offers a glimpse into the subject’s lives and grapples with what it means to be close to another person. Reimagining the erotic, often melancholic relationships depicted across Vallotton’s ten woodcuts, Paul Majek’s paintings - drawing upon photographs from his own family archive - encourage us to expand our definition of intimacy, exploring parental and familial connections as well as romantic ones. Moving beyond the heteronormative love portrayed in Vallotton’s series, Sam Spencer’s duologues offer examples of queer and platonic intimacy.",
       artists: "Pete Miller, Osian Williams (Curators) Georgina Dettmer (Director)",
-      work: "Through the leaves (2022) <br> Charcoal, oil and acrylic on wood⁠ <br> 87 x 72cm⁠ ",
+      work: "Through the leaves (2022) <br> Charcoal, oil and acrylic on wood⁠ <br> 87 x 72cm⁠",
       dates: "17th – 21st June 2023",
       location: "Ruskin School of Art, Old Music Hall, 108 Cowley Road, Oxford, OX4 1JE",
       images: ["./assets/exhibition-img8.jpeg"]
@@ -301,13 +301,13 @@ function showTab(tabId) {
       title: "In Heavenly Blue",
       description: "Wunika Mukan Gallery presents In Heavenly Blue, the homecoming exhibition of Paul Majek and Sola Olulode. The exhibition centers on their exploration of the color blue as a conduit of love and memory. In their work, as in Nigerian tradition, blue affirms its power to summon emotion and evoke intimacy. Majek’s paintings ebb dreamily between dimensions, while Olulode’s indigos stir a sense of familiarity, lingering in tender, romantic moments. Both UK-based artists draw on their ancestry, and in returning “home” to Nigeria, they reconnect knowledge frayed by time and migration. Paul Majek takes blue-hued lucid dreaming as a point of departure to probe the materiality of liminal spaces. His oil, acrylic, and charcoal works on wood or canvas recreate the terrain of the subliminal, transforming woodgrain into liquid form and imprinting Nigerian symbols that render his figures transparent and ethereal. Referencing archival family photographs of people and spaces only partly known, Majek approaches the archive as its own autonomous language, linking memory, love, generational dialogue, and spirituality.",
       artists: "Paul Majek, Sola Olulode",
-      work: "I lost my heart’s….ease (2021) <br> Oil, Acrylic, Charcoal on Wood <br> 107 x 82 cm ",
+      work: "I lost my heart’s….ease (2021) <br> Oil, Acrylic, Charcoal on Wood <br> 107 x 82 cm",
       dates: "31 July – 15 August 2021",
       location: "Wunika Mukan Gallery, Lagos, Nigeria",
       images: ["./assets/exhibition-img9.jpeg"]
     },
     10: {
-      title: "Queeriosities",
+      title: "Queeriosities (Art and Makers Fair)",
       description: "Queeriosities returns to London for its 2025 edition, showcasing the work of more than 60 LGBTQIA+ artists, makers, and small businesses at Copeland Gallery in Peckham. Alongside a vibrant marketplace of vendors, this year’s edition also features a weekend of cultural programming and the special group exhibition We Come to This Place for Magic, exploring queer world-building and showcasing the work of Devynn Barnes, Lawrence Cuevas, Theo Dunne, Paul Majek, Krzysztof Strzelecki, and Marf Summers.",
       artists: "Devynn Barnes, Lawrence Cuevas, Theo Dunne, Paul Majek, Krzysztof Strzelecki, and Marf Summers.",
       work: "TBD",
