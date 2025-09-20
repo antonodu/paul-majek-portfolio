@@ -1,8 +1,8 @@
 {
   "slides": [
-    { "type": "image", "image": "/assets/slideshow1.jpg" },
-    { "type": "image", "image": "/assets/slideshow2.jpg" },
-    { "type": "image", "image": "/assets/slideshow3.jpg" },
-    { "type": "video", "image": "/assets/Untitled 2.mp4" }
+    { "type": "image", "image": "./assets/slideshow1.jpg" },
+    { "type": "image", "image": "./assets/slideshow2.jpg" },
+    { "type": "image", "image": "./assets/slideshow3.jpg" },
+    { "type": "video", "image": "./assets/Untitled 2.mp4" }
   ]
 }
