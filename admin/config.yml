@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: main   # or "master", depending on your repo
 
-media_folder: "assets/uploads"     # where uploaded images go
-public_folder: "/assets/uploads"   # how they’re accessed in the site
+media_folder: "assets"        # images will be stored here in the repo
+public_folder: "/assets"      # images will be served from here on Netlify
 
 collections:
   # Home Page
