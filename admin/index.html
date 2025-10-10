@@ -5,18 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Content Manager</title>
 
-    <!-- ✅ Simplest stable link -->
-    <script src="https://unpkg.com/netlify-cms-app/dist/netlify-cms-app.js"></script>
+    <!-- Load the official Netlify CMS bundle -->
+    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   </head>
   <body>
     <script>
-      window.addEventListener("load", function () {
-        if (window.NetlifyCmsApp) {
-          NetlifyCmsApp.init();
-        } else {
-          console.error("Netlify CMS failed to load.");
-        }
-      });
+      window.CMS_MANUAL_INIT = true;
+      NetlifyCms.init();
     </script>
   </body>
 </html>
