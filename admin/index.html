@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Content Manager</title>
 
-    <!-- Load Netlify CMS -->
+    <!-- ✅ Correct script for Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js"></script>
   </head>
   <body>
     <script>
       window.addEventListener("load", function () {
         if (window.CMS) {
-          console.log("Netlify CMS found — initializing...");
+          console.log("✅ Netlify CMS found — initializing...");
           window.CMS.init();
         } else {
-          console.error("Netlify CMS failed to load.");
+          console.error("❌ Netlify CMS failed to load.");
         }
       });
     </script>

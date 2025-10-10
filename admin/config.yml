@@ -7,7 +7,7 @@ public_folder: "/assets"      # images will be served from here on Netlify
 
 collections:
   # Home Page
-  - file: "content/index.json"
+  - files: "content/index.json"
     label: "Home Page"
     name: "home"
     fields:
@@ -17,7 +17,7 @@ collections:
         ]}
 
   # About Page
-  - file: "content/about.json"
+  - files: "content/about.json"
     label: "About Page"
     name: "about"
     fields:
@@ -30,7 +30,7 @@ collections:
         ]}
 
   # Works Page
-  - file: "content/works.json"
+  - files: "content/works.json"
     label: "Works"
     name: "works"
     fields:
@@ -42,7 +42,7 @@ collections:
         ]}
 
   # Exhibition Page
-  - file: "content/exhibitions.json"
+  - files: "content/exhibitions.json"
     label: "Exhibitions"
     name: "exhibitions"
     fields:
@@ -62,7 +62,7 @@ collections:
         ]}
 
   # Sadesix Page
-  - file: "content/sadesix.json"
+  - files: "content/sadesix.json"
     label: "SADESIX"
     name: "sadesix"
     fields:
