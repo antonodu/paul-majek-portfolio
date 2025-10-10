@@ -1,76 +1,107 @@
 backend:
   name: git-gateway
-  branch: main   # or "master", depending on your repo
+  branch: main
 
-media_folder: "assets"        # images will be stored here in the repo
-public_folder: "/assets"      # images will be served from here on Netlify
+media_folder: "assets"
+public_folder: "/assets"
 
 collections:
-  # Home Page
-  - files: "content/index.json"
+  - name: "home"
     label: "Home Page"
-    name: "home"
-    fields:
-      - { label: "Slides", name: "slides", widget: "list", fields: [
-          { label: "Image", name: "image", widget: "image" },
-          { label: "Type", name: "type", widget: "select", options: ["image", "video"] }
-        ]}
+    files:
+      - file: "content/index.json"
+        label: "Home Content"
+        name: "homeContent"
+        fields:
+          - label: "Slides"
+            name: "slides"
+            widget: "list"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["image", "video"] }
+              - { label: "Source", name: "src", widget: "string" }
 
-  # About Page
-  - files: "content/about.json"
+  - name: "about"
     label: "About Page"
-    name: "about"
-    fields:
-      - { label: "Profile Image", name: "image", widget: "image" }
-      - { label: "Biography Paragraphs", name: "paragraphs", widget: "list", field: {label: "Paragraph", name: "paragraph", widget: "text"} }
-      - { label: "Social Links", name: "socials", widget: "list", fields: [
-          { label: "Platform", name: "platform", widget: "string" },
-          { label: "URL", name: "url", widget: "string" },
-          { label: "Icon Class", name: "icon", widget: "string" }
-        ]}
+    files:
+      - file: "content/about.json"
+        label: "About Content"
+        name: "aboutContent"
+        fields:
+          - { label: "Profile Image", name: "image", widget: "image" }
+          - label: "Biography"
+            name: "paragraphs"
+            widget: "list"
+            field: { label: "Paragraph", name: "paragraph", widget: "text" }
+          - label: "Social Links"
+            name: "socials"
+            widget: "list"
+            fields:
+              - { label: "Platform", name: "platform", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+              - { label: "Icon Class", name: "icon", widget: "string" }
 
-  # Works Page
-  - files: "content/works.json"
+  - name: "works"
     label: "Works"
-    name: "works"
-    fields:
-      - { label: "Works", name: "works", widget: "list", fields: [
-          { label: "Title", name: "title", widget: "string" },
-          { label: "Year", name: "year", widget: "string" },
-          { label: "Image", name: "image", widget: "image" },
-          { label: "Medium", name: "medium", widget: "string", required: false }
-        ]}
+    files:
+      - file: "content/works.json"
+        label: "Works"
+        name: "worksContent"
+        fields:
+          - label: "Works"
+            name: "works"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Year", name: "year", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Medium", name: "medium", widget: "string", required: false }
 
-  # Exhibition Page
-  - files: "content/exhibitions.json"
+  - name: "exhibitions"
     label: "Exhibitions"
-    name: "exhibitions"
-    fields:
-      - { label: "Upcoming Exhibitions", name: "upcoming", widget: "list", fields: [
-          { label: "Title", name: "title", widget: "string" },
-          { label: "Image", name: "image", widget: "image" },
-          { label: "Dates", name: "dates", widget: "string", required: false },
-          { label: "Location", name: "location", widget: "string", required: false }
-        ]}
-      - { label: "Past Exhibitions", name: "past", widget: "list", fields: [
-          { label: "Title", name: "title", widget: "string" },
-          { label: "Image", name: "image", widget: "image" },
-          { label: "Description", name: "description", widget: "text", required: false },
-          { label: "Artists", name: "artists", widget: "string", required: false },
-          { label: "Dates", name: "dates", widget: "string", required: false },
-          { label: "Location", name: "location", widget: "string", required: false }
-        ]}
+    files:
+      - file: "content/exhibitions.json"
+        label: "Exhibitions"
+        name: "exhibitionsContent"
+        fields:
+          - label: "Upcoming Exhibitions"
+            name: "upcoming"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Dates", name: "dates", widget: "string", required: false }
+              - { label: "Location", name: "location", widget: "string", required: false }
+          - label: "Past Exhibitions"
+            name: "past"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Description", name: "description", widget: "text", required: false }
+              - { label: "Artists", name: "artists", widget: "string", required: false }
+              - { label: "Dates", name: "dates", widget: "string", required: false }
+              - { label: "Location", name: "location", widget: "string", required: false }
 
-  # Sadesix Page
-  - files: "content/sadesix.json"
+  - name: "sadesix"
     label: "SADESIX"
-    name: "sadesix"
-    fields:
-      - { label: "Showcase Images", name: "images", widget: "list", field: { label: "Image", name: "image", widget: "image" } }
-      - { label: "Paragraphs", name: "paragraphs", widget: "list", field: {label: "Paragraph", name: "paragraph", widget: "text"} }
-      - { label: "Quote", name: "quote", widget: "string" }
-      - { label: "Social Links", name: "socials", widget: "list", fields: [
-          { label: "Platform", name: "platform", widget: "string" },
-          { label: "URL", name: "url", widget: "string" },
-          { label: "Icon Class", name: "icon", widget: "string" }
-        ]}
+    files:
+      - file: "content/sadesix.json"
+        label: "SADESIX Content"
+        name: "sadesixContent"
+        fields:
+          - label: "Showcase Images"
+            name: "images"
+            widget: "list"
+            field: { label: "Image", name: "image", widget: "image" }
+          - label: "Paragraphs"
+            name: "paragraphs"
+            widget: "list"
+            field: { label: "Paragraph", name: "paragraph", widget: "text" }
+          - { label: "Quote", name: "quote", widget: "string" }
+          - label: "Social Links"
+            name: "socials"
+            widget: "list"
+            fields:
+              - { label: "Platform", name: "platform", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+              - { label: "Icon Class", name: "icon", widget: "string" }
