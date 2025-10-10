@@ -4,14 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Content Manager</title>
-
-    <!-- Load the official Netlify CMS bundle -->
-    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+    <!-- Correct script for Netlify CMS -->
+    <script src="https://unpkg.com/netlify-cms@2.15.72/dist/netlify-cms.js"></script>
   </head>
   <body>
     <script>
-      window.CMS_MANUAL_INIT = true;
-      NetlifyCms.init();
+      CMS.init();
     </script>
   </body>
 </html>
