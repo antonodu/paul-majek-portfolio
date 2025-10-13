@@ -1,107 +1,97 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: main   # or "master", depending on your repo
 
-media_folder: "assets"
-public_folder: "/assets"
+media_folder: "assets"        # images will be stored here in the repo
+public_folder: "/assets"      # images will be served from here on Netlify
 
 collections:
-  - name: "home"
+  # Home Page
+  - file: "content/index.json"
     label: "Home Page"
-    files:
-      - file: "content/index.json"
-        label: "Home Content"
-        name: "homeContent"
+    name: "home"
+    fields:
+      - label: "Slides"
+        name: "slides"
+        widget: "list"
         fields:
-          - label: "Slides"
-            name: "slides"
-            widget: "list"
-            fields:
-              - { label: "Type", name: "type", widget: "select", options: ["image", "video"] }
-              - { label: "Source", name: "src", widget: "string" }
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Type", name: "type", widget: "select", options: ["image", "video"] }
 
-  - name: "about"
+  # About Page
+  - file: "content/about.json"
     label: "About Page"
-    files:
-      - file: "content/about.json"
-        label: "About Content"
-        name: "aboutContent"
+    name: "about"
+    fields:
+      - { label: "Profile Image", name: "image", widget: "image" }
+      - label: "Biography Paragraphs"
+        name: "paragraphs"
+        widget: "list"
+        field: { label: "Paragraph", name: "paragraph", widget: "text" }
+      - label: "Social Links"
+        name: "socials"
+        widget: "list"
         fields:
-          - { label: "Profile Image", name: "image", widget: "image" }
-          - label: "Biography"
-            name: "paragraphs"
-            widget: "list"
-            field: { label: "Paragraph", name: "paragraph", widget: "text" }
-          - label: "Social Links"
-            name: "socials"
-            widget: "list"
-            fields:
-              - { label: "Platform", name: "platform", widget: "string" }
-              - { label: "URL", name: "url", widget: "string" }
-              - { label: "Icon Class", name: "icon", widget: "string" }
+          - { label: "Platform", name: "platform", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+          - { label: "Icon Class", name: "icon", widget: "string" }
 
-  - name: "works"
+  # Works Page
+  - file: "content/works.json"
     label: "Works"
-    files:
-      - file: "content/works.json"
-        label: "Works"
-        name: "worksContent"
+    name: "works"
+    fields:
+      - label: "Works"
+        name: "works"
+        widget: "list"
         fields:
-          - label: "Works"
-            name: "works"
-            widget: "list"
-            fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Year", name: "year", widget: "string" }
-              - { label: "Image", name: "image", widget: "image" }
-              - { label: "Medium", name: "medium", widget: "string", required: false }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "string" }
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Medium", name: "medium", widget: "string", required: false }
 
-  - name: "exhibitions"
+  # Exhibitions Page
+  - file: "content/exhibitions.json"
     label: "Exhibitions"
-    files:
-      - file: "content/exhibitions.json"
-        label: "Exhibitions"
-        name: "exhibitionsContent"
+    name: "exhibitions"
+    fields:
+      - label: "Upcoming Exhibitions"
+        name: "upcoming"
+        widget: "list"
         fields:
-          - label: "Upcoming Exhibitions"
-            name: "upcoming"
-            widget: "list"
-            fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Image", name: "image", widget: "image" }
-              - { label: "Dates", name: "dates", widget: "string", required: false }
-              - { label: "Location", name: "location", widget: "string", required: false }
-          - label: "Past Exhibitions"
-            name: "past"
-            widget: "list"
-            fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Image", name: "image", widget: "image" }
-              - { label: "Description", name: "description", widget: "text", required: false }
-              - { label: "Artists", name: "artists", widget: "string", required: false }
-              - { label: "Dates", name: "dates", widget: "string", required: false }
-              - { label: "Location", name: "location", widget: "string", required: false }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Dates", name: "dates", widget: "string", required: false }
+          - { label: "Location", name: "location", widget: "string", required: false }
+      - label: "Past Exhibitions"
+        name: "past"
+        widget: "list"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Description", name: "description", widget: "text", required: false }
+          - { label: "Artists", name: "artists", widget: "string", required: false }
+          - { label: "Dates", name: "dates", widget: "string", required: false }
+          - { label: "Location", name: "location", widget: "string", required: false }
 
-  - name: "sadesix"
+  # SADESIX Page
+  - file: "content/sadesix.json"
     label: "SADESIX"
-    files:
-      - file: "content/sadesix.json"
-        label: "SADESIX Content"
-        name: "sadesixContent"
+    name: "sadesix"
+    fields:
+      - label: "Showcase Images"
+        name: "images"
+        widget: "list"
+        field: { label: "Image", name: "image", widget: "image" }
+      - label: "Paragraphs"
+        name: "paragraphs"
+        widget: "list"
+        field: { label: "Paragraph", name: "paragraph", widget: "text" }
+      - { label: "Quote", name: "quote", widget: "string" }
+      - label: "Social Links"
+        name: "socials"
+        widget: "list"
         fields:
-          - label: "Showcase Images"
-            name: "images"
-            widget: "list"
-            field: { label: "Image", name: "image", widget: "image" }
-          - label: "Paragraphs"
-            name: "paragraphs"
-            widget: "list"
-            field: { label: "Paragraph", name: "paragraph", widget: "text" }
-          - { label: "Quote", name: "quote", widget: "string" }
-          - label: "Social Links"
-            name: "socials"
-            widget: "list"
-            fields:
-              - { label: "Platform", name: "platform", widget: "string" }
-              - { label: "URL", name: "url", widget: "string" }
-              - { label: "Icon Class", name: "icon", widget: "string" }
+          - { label: "Platform", name: "platform", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+          - { label: "Icon Class", name: "icon", widget: "string" }
