@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Content Manager</title>
 
-    <!-- ✅ This script is the official Netlify CMS build -->
-    <script src="https://unpkg.com/netlify-cms-app@^2.15.0/dist/netlify-cms.js"></script>
+    <!-- ✅ Use the official Netlify CMS build -->
+    <script src="https://unpkg.com/netlify-cms-app@latest/dist/netlify-cms-app.js"></script>
   </head>
   <body>
     <script>
-      if (window.NetlifyCmsApp) {
-        window.NetlifyCmsApp.init();
+      if (window.CMS) {
+        CMS.init();
       } else {
         console.error("Netlify CMS failed to load");
       }
