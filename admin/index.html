@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Content Manager</title>
 
-    <!-- ✅ Stable CDN source -->
-    <script src="https://cdn.jsdelivr.net/npm/netlify-cms-app@2.15.83/dist/netlify-cms-app.js"></script>
+    <!-- ✅ Correct Netlify CMS script -->
+    <script src="https://unpkg.com/netlify-cms-app@2.15.83/dist/netlify-cms.js"></script>
   </head>
   <body>
     <script>
       if (window.CMS) {
-        CMS.init();
+        window.CMS.init();
       } else {
         console.error("Netlify CMS failed to load");
       }
