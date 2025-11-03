@@ -36,6 +36,7 @@ function showTab(tabId) {
   }
 
  
+document.addEventListener("DOMContentLoaded", () => {
   const slides = document.querySelectorAll('.slide');
   let currentIndex = 0;
 
@@ -53,11 +54,9 @@ function showTab(tabId) {
     showSlide(currentIndex);
   }
 
-  // Initial display
   showSlide(currentIndex);
-
-  // Change slide every 6 seconds
   setInterval(nextSlide, 6000);
+});
 
   function openFullPopup(imageSrc, title, year, description) {
     const popup = document.getElementById("fullscreen-popup");
