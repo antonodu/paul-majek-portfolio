@@ -27,7 +27,7 @@ function showTab(tabId) {
     fullMenu.style.display = 'none';
   });
 
-  function openPDF() {
+  function openPaulPDF() {
     window.open('./assets/paul-majek-cv.pdf', '_blank');
   }
 

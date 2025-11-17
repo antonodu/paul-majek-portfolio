@@ -44,6 +44,12 @@
         top: 20px;
     }
 
+    .site-developed1 {
+        position: relative;
+        top: 27px;
+        font-size: 0.875rem
+    }
+
     .social-icons a {
         font-size: 2rem; /* Slightly reduce icon size */
     }
@@ -93,6 +99,7 @@
     /* EXHIBITION MODAL */
 
     .exhibition-modal-body {
+    display: flex;
     flex-direction: column; /* Stack instead of squeezing side-by-side */
     padding: 20px;
     gap: 20px;
@@ -115,7 +122,7 @@
 
     .sade-six {
         position: relative;
-        bottom: 270px;
+        bottom: 246px;
         left: 190px;
         height: 90px;
     }
@@ -174,5 +181,5 @@
         background-position: top center; /* Adjust position for small portrait screens */
     }
 
-   
 }}
+
