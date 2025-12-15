@@ -96,9 +96,9 @@ document.addEventListener("DOMContentLoaded", () => {
       medium: "Reductive Mono-print on paper"
     },
     {
-      img: "./assets/work5.jpg",
-      title: "I'm Still Releasing, 2024",
-      medium: "Reductive Mono-print on paper"
+      img: "./assets/work5.jpeg",
+      title: "Just Enough, 2022",
+      medium: "Oil, acrylic, and charcoal on wood"
     },
     {
       img: "./assets/work6.jpeg",
@@ -166,9 +166,9 @@ document.addEventListener("DOMContentLoaded", () => {
       medium: "Reductive Mono-print on paper"
     },
     {
-      img: "./assets/work19.jpeg",
-      title: "Just Enough, 2022",
-      medium: "Oil, acrylic, and charcoal on wood"
+      img: "./assets/work19.jpg",
+      title: "I'm Still Releasing, 2022",
+      medium: "Reductive Mono-print on paper"
     },
     {
       img: "./assets/work20.jpeg",
