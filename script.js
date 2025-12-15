@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       img: "./assets/work19.jpg",
-      title: "I'm Still Releasing, 2022",
+      title: "I'm Still Releasing, 2024",
       medium: "Reductive Mono-print on paper"
     },
     {
