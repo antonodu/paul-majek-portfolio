@@ -106,7 +106,6 @@
     height: 100vh;          /* FIXED viewport height */
     max-height: 100vh;
     border-radius: 0;
-
     display: flex;          /* 👈 REQUIRED */
     flex-direction: column;
   }
@@ -117,7 +116,6 @@
     flex-direction: column;
     gap: 24px;
     padding: 20px;
-
     overflow-y: auto;       /* 👈 SCROLLS */
     -webkit-overflow-scrolling: touch;
   }
@@ -125,6 +123,18 @@
   .exhibition-info,
   .exhibition-images {
     width: 100%;
+  }
+
+  .modal-prev, .modal-next {
+    display: none;
+  }
+
+  .modal-close {
+    top: 12px;
+    left: 366px;
+    font-size: 2.5rem;
+    z-index: 10000;
+  
   }
     /* SADESIX * /*/
      header img {

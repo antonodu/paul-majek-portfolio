@@ -442,14 +442,14 @@ li a:hover,
     display: none;
   }
   .modal-close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    background: transparent;
-    font-size: 3rem;
-    border: none;
-    cursor: pointer;
-    z-index: 10000;
+      position: fixed;
+      top: 20px;
+      right: 30px;
+      background: transparent;
+      font-size: 3rem;
+      border: none;
+      cursor: pointer;
+      z-index: 10000;
   }
   .exhibition-modal-body {
     display: flex;
