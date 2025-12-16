@@ -72,11 +72,17 @@
 
 
  
+    /* EXHIBITION  */
 
 
     section.exhibition {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
+    }
+
+    .exhibition-tabs {
+        position: relative;
+        top: 30px;
     }
 
 
@@ -146,6 +152,10 @@
         bottom: 246px;
         left: 190px;
         height: 90px;
+    }
+
+    .sade-six img {
+        height: 24px;
     }
 
     .sadesix-content {
