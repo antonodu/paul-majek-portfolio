@@ -172,9 +172,9 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       img: "./assets/work20.jpeg",
-      title: "Slow Fire",
+      title: "Slow Fire, 2025",
       medium: "Tetrapak drypoint on paper"
-    }
+    },
   ];
 
   function openModal(index) {
